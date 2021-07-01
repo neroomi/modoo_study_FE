@@ -9,7 +9,7 @@ class App extends Component {
             <div>
                 <Menu/>
                 <Route exact path="/" component={Home}/>
-                <Route path="/studylist" component={StudyList}/>
+                {/*<Route path="/studylist" component={StudyList}/>*/}
                 <Route path="/community" component={Communities}/>
                 <Route path="/studymanagement" component={StudyManagement}/>
             </div>
