@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-### Branch Guide
+## Branch Guide
 
 - `master(main)` -> 버전 배포용
 - `develop`        -> 개발용, 추후 master에 최종 merge
