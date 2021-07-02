@@ -73,5 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Branch Guide
 
 - `master(main)` -> 버전 배포용
-- `develop`        -> 개발용, 추후 master에 최종 머지
-- `페이지명/기능_버전` -> 로컬에서 기능별 개발 후 devolp에 머지
+- `develop`        -> 개발용, 추후 master에 최종 merge
+- `페이지명/기능_버전` -> 로컬에서 기능별 개발 후 develop에 merge 
+**cf. 기능별 개발 후 `git checkout develop` 후 develop 브랜치에서 `git merge --no--ff`로 merge**
