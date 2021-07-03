@@ -12,7 +12,7 @@ const Menu = () => {
             </ul>
             <hr/>
             <ul className="submenu">
-                <li><Link to="/">로그인/회원가입</Link></li>
+                <li><Link to="/signinmodal">로그인/회원가입</Link></li>
                 <li><Link to="/">알림</Link></li>
                 <li><Link to="/mypage">마이페이지</Link></li>
             </ul>
