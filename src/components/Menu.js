@@ -5,14 +5,13 @@ import { Component } from 'react';
 const Menu = () => {
     return (
         <div>
-            <ul>
+            <ul className="menu">
                 <li><Link to="/">스터디 목록</Link></li>
-                {/*<li><Link to="/home">스터디 목록</Link></li>*/}
                 <li><Link to="/community">커뮤니티</Link></li>
                 <li><Link to="/studymanagement">내 스터디 관리</Link></li>
             </ul>
             <hr/>
-            <ul>
+            <ul className="submenu">
                 <li><Link to="/">로그인/회원가입</Link></li>
                 <li><Link to="/">알림</Link></li>
                 <li><Link to="/mypage">마이페이지</Link></li>
