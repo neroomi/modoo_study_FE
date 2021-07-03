@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { Home, StudyList, StudyManagement,Communities } from './pages';
+import { Home, StudyList, StudyManagement, Communities, Mypage} from './pages';
 import Menu from './components/Menu';
 
 class App extends Component {
@@ -12,6 +12,7 @@ class App extends Component {
                 {/*<Route path="/studylist" component={StudyList}/>*/}
                 <Route path="/community" component={Communities}/>
                 <Route path="/studymanagement" component={StudyManagement}/>
+                <Route path="/mypage" component={Mypage}/>
             </div>
         );
     }
