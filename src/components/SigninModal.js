@@ -36,6 +36,9 @@ function SigninModal(props) {
                         <div className="googleLogin">
                             <button>구글로 로그인하기</button>
                         </div>
+                        <div className="join">
+                            <button>회원가입</button>
+                        </div>
                         <div className="closeSection">
                             <button className="close" onClick={close}> close </button>
                         </div>
