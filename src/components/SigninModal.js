@@ -31,6 +31,11 @@ function SigninModal(props) {
                             // onChange={this.loginHandler}
                         />
                         {/*{props.children} app값 불러오기*/ }
+                        <br/>
+                        <input type="checkbox"></input>
+                        <label for>로그인 유지</label>
+                        <br/>
+                        <a href="/"><span>아이디/비밀번호 찾기</span></a>
                     </main>
                     <footer>
                         <div className="googleLogin">
