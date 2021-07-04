@@ -22,6 +22,7 @@ function SigninModal(props) {
                             placeholder="아이디"
                             // onChange={this.loginHandler}
                         />
+                        <br/>
                         <input
                             name="password"
                             className="loginPw"
@@ -32,7 +33,12 @@ function SigninModal(props) {
                         {/*{props.children} app값 불러오기*/ }
                     </main>
                     <footer>
-                        <button className="close" onClick={close}> close </button>
+                        <div className="googleLogin">
+                            <button>구글로 로그인하기</button>
+                        </div>
+                        <div className="closeSection">
+                            <button className="close" onClick={close}> close </button>
+                        </div>
                     </footer>
                 </section>
             ) : null }

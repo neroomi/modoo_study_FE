@@ -4,7 +4,7 @@ const Mypage = () => {
     return (
         <div>
             <h2>User Profile</h2>
-            {/* <div>
+            <div>
                 <div name="Account Information">
                     <h5>Username</h5>
                         <input type="text" value="{username}"/>         
@@ -42,7 +42,7 @@ const Mypage = () => {
                         </ul>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 };
