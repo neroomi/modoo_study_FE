@@ -15,27 +15,36 @@ function SigninModal(props) {
                         <button className="close" onClick={close}> &times; </button>
                     </header>
                     <main>
-                        <input
-                            name="email"
-                            className="loginId"
-                            type="text"
-                            placeholder="아이디"
-                            // onChange={this.loginHandler}
-                        />
-                        <br/>
-                        <input
-                            name="password"
-                            className="loginPw"
-                            type="password"
-                            placeholder="비밀번호"
-                            // onChange={this.loginHandler}
-                        />
-                        {/*{props.children} app값 불러오기*/ }
-                        <br/>
-                        <input type="checkbox"></input>
-                        <label for>로그인 유지</label>
-                        <br/>
-                        <a href="/"><span>아이디/비밀번호 찾기</span></a>
+                        <div className="loginForm">
+                            <input
+                                name="email"
+                                className="loginId"
+                                type="email"
+                                placeholder="아이디"
+                                // onChange={this.loginHandler}
+                            />
+                            <input
+                                name="password"
+                                className="loginPw"
+                                type="password"
+                                placeholder="비밀번호"
+                                // onChange={this.loginHandler}
+                            />
+                            {/*{props.children} app값 불러오기*/ }
+                            <div className="loginOptions">
+                                <div className="loginSession">
+                                    <input type="checkbox" id="loginSession"></input>
+                                    <label for="loginSession">로그인 유지</label>
+                                </div>
+                                <div className="findMyAccount">
+                                    <a href="/"><span>아이디/비밀번호 찾기</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="loginSubmit">
+                            <input class="loginSubmitBtn" type="submit" value="로그인하기"/>
+                        </div>
+
                     </main>
                     <footer>
                         <div className="googleLogin">
@@ -44,9 +53,10 @@ function SigninModal(props) {
                         <div className="join">
                             <button>회원가입</button>
                         </div>
-                        <div className="closeSection">
+                    
+                        {/* <div className="closeSection">
                             <button className="close" onClick={close}> close </button>
-                        </div>
+                        </div> */}
                     </footer>
                 </section>
             ) : null }
