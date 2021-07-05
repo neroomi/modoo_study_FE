@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
-import { Home, StudyList, StudyManagement, Communities, Mypage } from './pages';
+import { BrowserRouter ,Route, Switch } from 'react-router-dom';
+import { Home, StudyList, StudyManagement, Community, Mypage } from './pages';
 import Menu from './components/Menu';
 
 class App extends Component {
@@ -9,10 +9,14 @@ class App extends Component {
         return (
             <div>
                 <Menu/>
-                <Route exact path="/" component={Home}/>
-                <Route path="/community" component={Communities}/>
-                <Route path="/studymanagement" component={StudyManagement}/>
-                <Route path="/mypage" component={Mypage}/>
+                <Switch>
+                    <Route exact path="/" component={Home}/>
+                    <Route path="/community" component={Community}/>
+                    <Route path="/studymanagement" component={StudyManagement}/>
+                    <Route path="/mypage" component={Mypage}/>
+                    <Route path="/">Not found</Route>
+                </Switch>
+
             </div>
         );
     }
