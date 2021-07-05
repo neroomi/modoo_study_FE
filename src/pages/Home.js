@@ -1,11 +1,12 @@
 import React from 'react';
-import StudyList from '../components/home/StudyList';
+import StudyBox from '../components/home/StudyBox';
+
 
 const Home = () => {
     return (
         <div>
             <h2>스터디 목록</h2>
-            <StudyList/>
+            <StudyBox/>
         </div>
     );
 };
