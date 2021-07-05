@@ -6,7 +6,11 @@ const Home = () => {
     return (
         <div>
             <h2>스터디 목록</h2>
-            <StudyBox/>
+            <main>
+                <StudyBox/>
+                <StudyBox/>
+                <StudyBox/>
+            </main>
         </div>
     );
 };
