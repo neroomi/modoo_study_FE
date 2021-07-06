@@ -36,6 +36,3 @@ https://app.diagrams.net/#G1VAYe_sMlg3f5Qwm_8sXNObFvos4lJOHb
 - 각 기능별 브랜치
 - 추후 develop에 merge 후 삭제
 
-#### 참고
-_기능별 브랜치에서 개발 후 `git checkout develop`, develop 브랜치에서 `git merge --no--ff`로 merge_
-_'working tree'에서 확인 가능
