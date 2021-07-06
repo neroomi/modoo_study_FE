@@ -1,15 +1,32 @@
 import React from 'react';
-import StudyBox from '../components/home/StudyBox';
+import StudyList from '../components/home/StudyList';
 
 
-const Home = () => {
+// const Home = () => {
+//     return (
+//         <div>
+//             <h2>스터디 목록</h2>
+//             <main>
+//                 <StudyBox/>
+//                 <StudyBox/>
+//                 <StudyBox/>
+//             </main>
+//         </div>
+//     );
+// };
+
+// export default Home;
+
+
+
+
+
+function Home() {
     return (
         <div>
             <h2>스터디 목록</h2>
             <main>
-                <StudyBox/>
-                <StudyBox/>
-                <StudyBox/>
+                <StudyList/>
             </main>
         </div>
     );
