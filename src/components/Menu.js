@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import SigninModal from './SigninModal';
 import SignupModal from './SignupModal';
+import "../assets/css/navlink.css"
 
 class Menu extends Component{
     constructor(props) {
@@ -45,9 +46,9 @@ class Menu extends Component{
 
 
                 <ul className="menu" >
-                    <li><Link to="/">스터디 목록</Link></li>
-                    <li><Link to="/community">커뮤니티</Link></li>
-                    <li><Link to="/studymanagement">내 스터디 관리</Link></li>
+                    <li><NavLink exact to="/">스터디 목록</NavLink></li>
+                    <li><NavLink to="/community">커뮤니티</NavLink></li>
+                    <li><NavLink to="/studymanagement">내 스터디 관리</NavLink></li>
                 </ul>
                 {/*<hr/>*/}
                 {/*<ul className="submenu">*/}
