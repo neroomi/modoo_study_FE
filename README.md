@@ -3,9 +3,9 @@
 > '모두의 스터디' 프론트엔드 페이지입니다. 
 
 
-## Language
+## Language & Framework
 
-**JavaScript**
+**JavaScript**,
 **React**
 
 
@@ -13,7 +13,7 @@
 
 #### 화면 설계
 
-https://ovenapp.io/project/R4MAqVUusk5iGRxXs7Nc7GKKkGx7gnHh#8gjg9
+https://ovenapp.io/view/H5QI5mNpH7eqsJisZ9NGcSNRjtW6nSsp/PlLRO
 
 #### 요구사항 명세서
 
